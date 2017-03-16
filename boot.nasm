@@ -62,7 +62,7 @@ int 10h
 mov AH, 02h
 mov BH, 1
 mov DH, 50
-mov DL, 30
+mov DL, 3
 int 10h
 
 jmp $
