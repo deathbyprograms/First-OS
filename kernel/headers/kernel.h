@@ -1,0 +1,16 @@
+void main();
+void print(char* message);
+void clear();
+void clear_row(int row);
+void print_at(char* message, int print_row, int print_col);
+void memory_copy(char* source, char* dest, int bytes);
+void handle_scrolling();
+void new_line();
+void change_attribute(int attribute);
+void default_attribute();
+int str_cmp(char* a, char* b);
+unsigned char byte_in(unsigned short port);
+void byte_out(unsigned short port, unsigned char data);
+unsigned short short_in(unsigned short port);
+void short_out(unsigned short port, unsigned short data);
+void cpu_wait(int cycles);

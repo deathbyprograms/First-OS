@@ -1,0 +1,12 @@
+This is my first operating system, and it currently has no interactivity. Currently, there is just a small C kernel with a basic display driver, so experiment with it as you will.
+
+It was developed mostly from guided tutorials from Nick Bludell's "Writing a Simple Operating System - from Scratch"
+
+Dependencies:
+	- binutils
+	- NASM
+	- (recommended) QEmu or Bochs
+
+Compiling:
+	- To run using QEmu or Bochs, use "make run" and "make run_bochs" respectively.
+	- To compile the image file for use with another emulator, just use "make".
