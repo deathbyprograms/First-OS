@@ -6,6 +6,8 @@ mov [BOOT_DISK], dl
 mov bp, 8000h
 mov sp, bp
 
+
+
 mov bx, 0x1000
 mov dh, 15
 mov dl, [BOOT_DISK]
@@ -13,6 +15,12 @@ call disk_load
 
 mov bx, REAL_STRING
 call print_string
+
+pusha
+mov ah, 2
+mov dh, 26
+int 10h
+popa
 
 call switch_to_pm
 
