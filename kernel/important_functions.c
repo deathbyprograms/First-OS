@@ -27,5 +27,5 @@ int str_cmp(char* a, char* b){
 
 void cpu_wait(int cycles){
 	int i;
-	for(int i = 0; i<cycles/3; i++);
+	for(i = 0; i<cycles/3; i++);
 }

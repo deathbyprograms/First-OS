@@ -7,6 +7,6 @@ unsigned char get_scancode(){
 }
 
 char get_char(unsigned char scancode){
-	return scancode[scancode];
+	return 0;//scancode[scancode];
 }
 
