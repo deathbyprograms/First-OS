@@ -17,9 +17,14 @@ mov bx, REAL_STRING
 call print_string
 
 pusha
+<<<<<<< HEAD
 mov ah, 02h
 mov bh, 0
 mov dh, 90
+=======
+mov ah, 2
+mov dh, 26
+>>>>>>> 7c82ce18234a7f649cfc239dbb05156b2f710d39
 int 10h
 popa
 
